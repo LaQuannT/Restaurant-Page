@@ -1,9 +1,9 @@
 import pageLoad from './page-load'
-import homeTab from './home'
+import aboutTab from './about'
+import contactTab from './contacts'
+import menuTab from './menu'
 
 pageLoad()
-
-const homeLink = document.querySelector('#home-link')
-homeLink.addEventListener('click', () => {
-  homeTab()
-})
+//aboutTab()
+//contactTab()
+//menuTab()

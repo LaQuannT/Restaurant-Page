@@ -1,4 +1,4 @@
-export default function homeTab() {
+export default function aboutTab() {
   const infoDiv = document.querySelector('.info')
   const h1El = document.createElement('h1')
   const textEl = document.createElement('p')
