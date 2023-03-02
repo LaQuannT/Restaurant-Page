@@ -1,1 +1,3 @@
-console.log('I am working! :)')
+import { pageLoad } from './page-load'
+
+pageLoad()
