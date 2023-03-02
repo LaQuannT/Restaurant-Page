@@ -1,7 +1,7 @@
-export function pageLoad() {
+export default function pageLoad() {
   const contentEl = document.getElementById('content')
   const headerEl = document.createElement('header')
-  headerEl.classList = 'top-bar'
+  headerEl.className = 'top-bar'
   contentEl.appendChild(headerEl)
 
   const getHeaderEl = document.querySelector('.top-bar')
@@ -17,7 +17,7 @@ export function pageLoad() {
   const headerdivEl2 = document.createElement('div')
   headerdivEl2.className = 'options options-right'
   headerdivEl2.innerHTML =
-    '<a href="" id="menu-link">Menu</a><a href="" id="about-link">About</a>'
+    '<a href="" id="menu-link">Menu</a><a href="" id="contacts-link">Contacts</a>'
   getHeaderEl.appendChild(headerdivEl2)
 
   const divEl = document.createElement('div')
