@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
+  background-color: black;
+}
+header {
+  color: wheat;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.options-left {
+  padding-left: 18px;
+}
+
+.options-right {
+  padding-right: 18px;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+}
+
+header > h1 {
+  text-align: center;
+}
+.info {
+  background-image: url(./imgs/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
