@@ -30,12 +30,6 @@ header {
   gap: 20px;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-  text-align: center;
-}
-
 header > h1 {
   text-align: center;
 }
@@ -44,4 +38,10 @@ header > h1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: wheat;
 }
